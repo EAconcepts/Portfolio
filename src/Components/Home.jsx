@@ -6,24 +6,23 @@ import SideMenu from './SideMenu'
 import heroImg from '../assets/hero-img.png'
 import TsParticles from './TsParticles'
 
-export const Home = ({darkMode, setDarkMode}) => {
+export const Home = () => {
     
-    // console.log(darkMode)
   return (
-    <div className=' w-full mt-12 z-20'>
+    <div className='md:fixed md:left-64 md:right-0 mt-16 md:flex md:flex-col'>
         {/* <TsParticles/> */}
-        <div className='w-full md:fle z-30'>
-            {/* <SideMenu darkMode={darkMode} setDarkMode={setDarkMode}/> */}
-            <div className='md:absolute md:left-64 flex flex-col'>
-                <img src={heroImg} alt='hero-img' className='h-60 w-80 '/>
+        <div className='w-full md:flex md:flex-col border- md:items-center'>
+            <div className='md:w-full md:absolute md:left64 flex flex-col md:px-20 md:flex-row-reverse md:justify-between'>
+                <img src={heroImg} alt='hero-img' className='h-60 w-100 md:h-80 md:w-80 '/>
+                <div className='md:flex md:flex-col md:justify-center'>
                 <div className='flex flex-col mt-2'>
-                    <p className='text-slate-900 text-xl font-semibold dark:text-purple-100 '>Hi there,
+                    <p className='text-slate-900 text-xl md:text-2xl font-semibold dark:text-purple-100 '>Hi there,
                         <span className='animate-waving-hand'> 👋</span>
                     </p>
-                    <p className='text-black dark:text-purple-300 mt-3 text-lg'>my name is </p>
-                    <h1 className='text-3xl  text-purple-800 dark:text-purple-500 font-bold'>EMMANUEL AMOO</h1>
+                    <p className='text-black dark:text-purple-300 mt-3 md:mt-5 text-lg md:text-xl'>my name is </p>
+                    <h1 className='text-3xl md:text-4xl  text-purple-800 dark:text-purple-500 font-bold'>EMMANUEL AMOO</h1>
                 </div>
-                <span className='font-semibold text-2xl dark:text-purple-100'><span>I'm </span><TypeAnimation 
+                <span className='font-semibold text-2xl md:text-3xl dark:text-purple-100'><span>I'm </span><TypeAnimation 
                     className='mt-8 font-bold text-purple-800 dark:text-purple-600 text-2xl'
                     sequence={[
                         "a Software Engineer",
@@ -44,7 +43,8 @@ export const Home = ({darkMode, setDarkMode}) => {
                     style={{fontSize:'', display:'inline-block', color:''}}
                     repeat={Infinity}
                     />
-                    </span>
+                </span>
+                </div>
             </div>
         </div>
         <div className='z-0'>

@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import { Home } from "./Components/Home"
 import About from './Components/About'
-// import TechStack from './Components/TechStack'
+import {Projects} from './Components/Projects'
 import TechStack from './Components/TechStack'
 import Blogs from './Components/Blogs'
 import Contacts from './Components/Contacts'
@@ -26,7 +26,7 @@ function App() {
               <Route exact path='/' element={<Home darkMode={darkMode} setDarkMode={setDarkMode}/>}/>
               <Route path='/about' element={<About/>}/>
               <Route path='/tech-stack' element={<TechStack/>}/>
-              <Route path='/projects' element={<About/>}/>
+              <Route path='/projects' element={<Projects/>}/>
               <Route path='/blogs' element={<Blogs/>}/>
               <Route path='/contacts' element={<Contacts/>}/>
           </Routes>
