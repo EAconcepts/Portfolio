@@ -1,0 +1,5 @@
+Body bg: slate-100, dark: gray-800
+Nav bg - white , dark: gray-700
+body text: black, dark: purple-100
+nav text: gray-400, dark: purple-300
+nav activebg: purple-800, dark: purple-950
