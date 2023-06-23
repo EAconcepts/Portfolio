@@ -2,13 +2,13 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='flex flex-col mt-8'>
+    <div className='flex flex-col mt-8 md:fixed md:left-64 md:right-0 pl-5'>
       <h1 className='text-5xl font-bold dark:text-purple-200 tracking-wide'>
         About Me
       </h1>
       <div className='mt-8 dark:text-purple-100 tracking-wide flex flex-col gap-3'>
         <p>
-          Greetings, my name is Emmanuel Amoo, a self taught and result driven developer skilled in creating and implementing eye catching and user friendly web applications.
+          Greetings, my name is Emmanuel Amoo, a self taught and result driven developer, skilled in creating and implementing eye catching, functional and user friendly web applications.
           </p>
           <p>
           As a Distinction gradute in Computer Engineering from Federal Polytechnic Ede,Osun State, I've been exposed to the diversities in tech space and have my knowledge expanded, especailly as far as the tech space is concerned.
