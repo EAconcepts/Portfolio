@@ -22,7 +22,7 @@ const SideMenu = ({darkMode, setDarkMode}) => {
     const navList= (
         <nav className="h-full flex flex-col justify-center gap-6 ">
             <NavLink to="/"
-                className={({isActive, isPending})=>isActive ? " bg-purple-800 dark:bg-purple-950 px-6 py-2 text-white font-bold hover:text-white " :"" ? isPending :"px-6 py-2 dark:text-purple-300 text-gray-400 hover:text-purple-600"}
+                className={({isActive, isPending})=>isActive ? " bg-purple-800 dark:bg-purple-950 px-6 py-2 text-white font-bold hover:text-white " :"" ? isPending :"px-6 py-2 dark:text-purple-300 text-purple-400 hover:text-purple-600"}
             >
                 <div className='flex flex-row gap-2 items-center'>
                     <p className=''>HOME</p>
