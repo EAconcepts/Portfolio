@@ -8,13 +8,26 @@ import Blogs from './Components/Blogs'
 import Contacts from './Components/Contacts'
 import SideMenu from "./Components/SideMenu"
 import TsParticles from './Components/TsParticles'
+import axios from "axios"
 
 function App() {
   const [darkMode, setDarkMode] = useState(false)
+  const [githubProjects, setGithubProjects] = useState()
 
   useEffect(()=>{
     setDarkMode(false)
+    axios.get('https://api.github.com/users/eaconcepts/repos')
+    .then((response)=>{
+      if(response.status===200){
+        console.log(response.data)
+        setGithubProjects(response.data)
+    }
+    })
+    .catch((error)=>{
+      console.log(error)
+    })
   },[])
+  // console.log(githubProjects)
 
   return (
     <div className={` box-border ${darkMode &&  'dark'}`}>
@@ -26,7 +39,7 @@ function App() {
               <Route exact path='/' element={<Home darkMode={darkMode} setDarkMode={setDarkMode}/>}/>
               <Route path='/about' element={<About/>}/>
               <Route path='/tech-stack' element={<TechStack/>}/>
-              <Route path='/projects' element={<Projects/>}/>
+              <Route path='/projects' element={<Projects githubProjects={githubProjects}/>} />
               <Route path='/blogs' element={<Blogs/>}/>
               <Route path='/contacts' element={<Contacts/>}/>
           </Routes>
