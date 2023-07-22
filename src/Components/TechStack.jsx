@@ -1,14 +1,14 @@
 import React from 'react'
 import reactImg from '../assets/reactjs.png'
-import htmlImg from '../assets/html.jpg'
-import cssImg from '../assets/css.jpg'
+import htmlImg from '../assets/html.png'
+import cssImg from '../assets/css.png'
 import tailwindImg from '../assets/tailwind.png'
-import javascriptImg from '../assets/javascript.jpg'
+import javascriptImg from '../assets/js.png'
 import axiosImg from '../assets/axios.png'
 
 const TechStack = () => {
   return (
-    <div className='flex flex-col mt-8 md:fixed md:left-64 md:right-0 pl-5'>
+    <div className='flex flex-col mt-8 md:fixe md:left-64 md:right-0 p-1 md:p-3 dark:text-purple-200'>
       <h1 className='text-5xl font-bold dark:text-purple-200 tracking-wide'>
         Tech Stack
       </h1>
@@ -16,47 +16,47 @@ const TechStack = () => {
         <p>The Technologies I can work with
         </p>
         <div className='grid grid-cols-2 md:grid-cols-3 gap-10 ml-5 mt-4 dark:text-purple-100'>
-          <div>
+          <div className='w-fit shadow-lg shadow-slate-600 rounded-md md:p-2'>
             <img src={htmlImg} 
               alt='html'
-              className=' w-[120px] h-32'
+              className=' w-[120px] h-32 md:w-[135px] md:h-36 object-cover'
               />
-              <p className=''>HTML</p>
+              <p className='text-center font-medium'>HTML</p>
           </div>
-          <div>
+          <div className='w-fit shadow-lg shadow-slate-600 rounded-md md:p-2'>
             <img src={cssImg} 
               alt='css'
-              className=' w-[120px] h-32'
+              className=' w-[120px] h-32 md:w-[135px] md:h-36 object-cover'
               />
-              <p>Vanilla CSS</p>
+              <p className='text-center font-medium'>Vanilla CSS</p>
           </div>
-          <div>
+          <div className='w-fit shadow-lg shadow-slate-600 rounded-md md:p-2'>
             <img src={javascriptImg} 
               alt='javascript'
-              className=' w-[120px] h-32'
+              className=' w-[120px] h-32 md:w-[135px] md:h-36 object-cover'
               />
-              <p>Javascript</p>
+              <p className='text-center font-medium'>Javascript</p>
           </div>
-          <div>
+          <div className='w-fit shadow-lg shadow-slate-600 rounded-md md:p-2'>
             <img src={tailwindImg} 
               alt='tailwind'
-              className=' w-[120px] h-32'
+              className=' w-[120px] h-32 md:w-[135px] md:h-36 object-contain'
               />
-              <p>Tailwind</p>
+              <p className='text-center font-medium'>Tailwind</p>
           </div>
-          <div>
+          <div className='w-fit shadow-lg shadow-slate-600 rounded-md md:p-2'>
             <img src={reactImg} 
               alt='react'
-              className=' w-[120px] h-32'
+              className=' w-[120px] md:w-[135px] md:h-36 h-32 object-contain '
               />
-              <p>Reactjs</p>
+              <p className='text-center font-medium'>Reactjs</p>
           </div>
-          <div>
+          <div className='w-fit shadow-lg shadow-slate-600 rounded-md md:p-2'>
             <img src={axiosImg} 
               alt='axios'
-              className=' w-[120px] h-32'
+              className=' w-[120px] md:w-[135px] md:h-36 h-32 object-cove'
               />
-              <p>Axios</p>
+              <p className='text-center font-medium'>Axios</p>
           </div>
         </div>
       </div>

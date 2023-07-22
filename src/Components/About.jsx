@@ -2,8 +2,8 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='flex flex-col mt-8 md:fixed md:left-64 md:right-0 pl-5'>
-      <h1 className='text-5xl font-bold dark:text-purple-200 tracking-wide'>
+    <div className='flex flex-col mt-8 p-2'>
+      <h1 className='text-5xl font-bold text-[#301934] dark:text-purple-200 tracking-wide'>
         About Me
       </h1>
       <div className='mt-8 dark:text-purple-100 tracking-wide flex flex-col gap-3'>
