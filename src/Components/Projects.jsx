@@ -1,18 +1,26 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import GitHubCalendar from 'react-github-calendar'
+import { TailSpin } from 'react-loader-spinner'
 
 export const Projects = ({githubProjects, setReload, reloadGithub, isPending}) => {
-  console.log(githubProjects)
+  // console.log(githubProjects)
   
   return (
-    <div className='h-full md:flex md:flex-col dark:text-purple-200'>
-      <div className='w-full flex flex-col justify-center'>
+    <div className='h-full md:flex mt-8 md:flex-col dark:text-purple-200 text-[#301934]'>
+      <h2 className='text-lg md:text-3xl font-bold font-heading tracking-wider'>MY PROJECTS</h2>
+      <div className='w-full flex flex-col justify-center mt-8'>
         <div className='w-full'>
-          <h2 className='text-xl text-center font-bold'>Projects</h2>
+          {/* <h2 className='text-xl text-center font-bold'>Projects</h2> */}
           <div className='flex flex-col items-center sm:grid sm:grid-cols-2 md:grid-cols-3 gap-y-4 md:gap-y-8 sm:place-items-center '>
             {
                isPending ?
-               <p>loading...</p> 
+              //  <p>loading...</p> 
+               <TailSpin 
+                  height='60'
+                  width='60' 
+                  color='blue'
+                />
               : githubProjects ?
               (
                 githubProjects.map((project)=>(
@@ -33,6 +41,16 @@ export const Projects = ({githubProjects, setReload, reloadGithub, isPending}) =
             }
           </div>
         </div>
+        <div className='mt-10'>
+          <h2 className='font-bold text-lg md:text-3xl'>GITHUB CONTRIBUTION</h2>
+          <GitHubCalendar 
+            username='eaconcepts'
+            fontSize={14}
+            blockSize={14}
+            blockMargin={4}
+          />
+        </div>
+        
       </div>
 
     </div>

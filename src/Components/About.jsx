@@ -2,11 +2,11 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='flex flex-col mt-8 p-2'>
-      <h1 className='text-5xl font-bold text-[#301934] dark:text-purple-200 tracking-wide'>
-        About Me
+    <div className='flex flex-col mt-8 p-2 '>
+      <h1 className='text-3xl uppercase font-heading tracking-wider font-bold text-[#301934] dark:text-purple-200'>
+        ABOUT ME
       </h1>
-      <div className='mt-8 dark:text-purple-100 tracking-wide flex flex-col gap-3'>
+      <div className='mt-8 dark:text-purple-100 tracking-wide flex flex-col gap-3 font-nunito'>
         <p>
           Greetings, my name is Emmanuel Amoo, a self taught and result driven developer, skilled in creating and implementing eye catching, functional and user friendly web applications.
           </p>

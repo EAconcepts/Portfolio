@@ -8,14 +8,14 @@ import axiosImg from '../assets/axios.png'
 
 const TechStack = () => {
   return (
-    <div className='flex flex-col mt-8 md:fixe md:left-64 md:right-0 p-1 md:p-3 dark:text-purple-200'>
-      <h1 className='text-5xl font-bold dark:text-purple-200 tracking-wide'>
-        Tech Stack
+    <div className='flex flex-col mt-8 p-1 md:p-3 dark:text-purple-200'>
+      <h1 className='text-3xl font-bold dark:text-purple-200 tracking-wider font-heading'>
+        TECH STACK
       </h1>
       <div className='mt-6'>
         <p>The Technologies I can work with
         </p>
-        <div className='grid grid-cols-2 md:grid-cols-3 gap-10 ml-5 mt-4 dark:text-purple-100'>
+        <div className='grid grid-cols-2 md:grid-cols-3 gap-10  mt-4 dark:text-purple-100'>
           <div className='w-fit shadow-lg shadow-slate-600 rounded-md md:p-2'>
             <img src={htmlImg} 
               alt='html'

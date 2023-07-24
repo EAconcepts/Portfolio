@@ -10,13 +10,13 @@ import SideMenu from "./Components/SideMenu"
 import TsParticles from './Components/TsParticles'
 import axios from "axios"
 import MobileMenu from "./Components/MobileMenu"
+import Footer from "./Components/Footer"
 
 function App() {
   const [darkMode, setDarkMode] = useState(true)
   const [githubProjects, setGithubProjects] = useState()
   const [isPending, setIsPending] = useState(false)
   const [reloadGithub, setReload] = useState(false)
-  console.log(window.location.pathname)
 
   useEffect(()=>{
     setDarkMode(true)
@@ -24,17 +24,16 @@ function App() {
     axios.get('https://api.github.com/users/eaconcepts/repos')
     .then((response)=>{
       if(response.status===200){
-        console.log(response.data)
+        // console.log(response.data)
         setGithubProjects(response.data)
         setIsPending(false)
     }
     })
     .catch((error)=>{
-      console.log(error)
+      // console.log(error)
       setIsPending(false)
     })
   },[reloadGithub])
-  // console.log(githubProjects)
 
   return (
     <>
@@ -57,6 +56,9 @@ function App() {
                   <Route path='/blogs' element={<Blogs/>}/>
                   <Route path='/contacts' element={<Contacts/>}/>
               </Routes>
+              <div className="md:hidden mt-8">
+                <Footer/>
+              </div>
             </div>
           </BrowserRouter>
         </div>

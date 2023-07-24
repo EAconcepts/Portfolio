@@ -4,6 +4,59 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faClose, faMoon, faSun, faHome, faUser, faComputer, faSuitcase, faPenToSquare, faMessage } from '@fortawesome/free-solid-svg-icons'
 import { NavLink } from 'react-router-dom'
 
+export const navList= (
+    <nav className="h-full flex flex-col justify-center gap-6 font-medium ">
+        <NavLink to="/"
+            className={({isActive, isPending})=>isActive ? " bg-purple-800 dark:bg-gray-800 px-6 py-2 text-white dark:text-purple-200 font-bold hover:text-purple-200 dark:hover:text-white" :"" ? isPending :"px-6 py-2 dark:text-purple-300 text-purple-700 hover:text-purple-500 dark:hover:text-purple-200"}
+        >
+            <div className='flex flex-row gap-2 items-center'>
+                <p className=''>HOME</p>
+            <FontAwesomeIcon icon={faHome} className=''/>
+            </div>
+        </NavLink>
+    
+        <NavLink to="/about"
+          className={({isActive, isPending})=>isActive ? " bg-purple-800 dark:bg-gray-800 px-6 py-2 text-white dark:text-purple-200 font-bold hover:text-purple-200 dark:hover:text-white" :"" ? isPending :"px-6 py-2 dark:text-purple-300 text-purple-700 hover:text-purple-500 dark:hover:text-purple-200"}
+        >
+            <div className='flex flex-row gap-2 items-center'>
+                <p className=''>ABOUT</p>
+            <FontAwesomeIcon icon={faUser} className=''/>
+            </div>
+        </NavLink>
+        <NavLink to="/tech-stack"
+            className={({isActive, isPending})=>isActive ? " bg-purple-800 dark:bg-gray-800 px-6 py-2 text-white dark:text-purple-200 font-bold hover:text-purple-200 dark:hover:text-white" :"" ? isPending :"px-6 py-2 dark:text-purple-300 text-purple-700 hover:text-purple-500 dark:hover:text-purple-200"}
+        >
+            <div className='flex flex-row gap-2 items-center'>
+                <p className=''>TECH STACK</p>
+            <FontAwesomeIcon icon={faComputer} className=''/>
+            </div>
+        </NavLink>
+        <NavLink to="/projects"
+            className={({isActive, isPending})=>isActive ? " bg-purple-800 dark:bg-gray-800 px-6 py-2 text-white dark:text-purple-200 font-bold hover:text-purple-200 dark:hover:text-white" :"" ? isPending :"px-6 py-2 dark:text-purple-300 text-purple-700 hover:text-purple-500 dark:hover:text-purple-200"}
+        >
+            <div className='flex flex-row gap-2 items-center'>
+                <p>PROJECTS</p>
+            <FontAwesomeIcon icon={faSuitcase} className=''/>
+            </div>
+        </NavLink>
+        {/* <NavLink to="/blogs"
+            className={({isActive, isPending})=>isActive ? " bg-purple-800 dark:bg-gray-800 px-6 py-2 text-white dark:text-purple-200 font-bold hover:text-purple-200 dark:hover:text-white" :"" ? isPending :"px-6 py-2 dark:text-purple-300 text-purple-700 hover:text-purple-500 dark:hover:text-purple-200"}
+        >
+            <div className='flex flex-row gap-2 items-center'>
+                <p>BLOGS</p>
+            <FontAwesomeIcon icon={faPenToSquare} className=''/>
+            </div>
+        </NavLink> */}
+        <NavLink to="/contacts"
+            className={({isActive, isPending})=>isActive ? " bg-purple-800 dark:bg-gray-800 px-6 py-2 text-white dark:text-purple-200 font-bold hover:text-purple-200 dark:hover:text-white" :"" ? isPending :"px-6 py-2 dark:text-purple-300 text-purple-700 hover:text-purple-500 dark:hover:text-purple-200"}
+        >
+            <div className='flex flex-row gap-2 items-center'>
+                <p>CONTACTS</p>
+            <FontAwesomeIcon icon={faMessage} className=''/>
+            </div>
+        </NavLink>
+    </nav>
+)
 
 const SideMenu = ({darkMode, setDarkMode}) => {
     const [isOpen, setIsOpen] = useState(false);
@@ -19,59 +72,7 @@ const SideMenu = ({darkMode, setDarkMode}) => {
         setIsOpen(false)
     })
 
-    const navList= (
-        <nav className="h-full flex flex-col justify-center gap-6 ">
-            <NavLink to="/"
-                className={({isActive, isPending})=>isActive ? " bg-purple-800 dark:bg-gray-800 px-6 py-2 text-white font-bold hover:text-white " :"" ? isPending :"px-6 py-2 dark:text-purple-300 text-purple-400 hover:text-purple-600"}
-            >
-                <div className='flex flex-row gap-2 items-center'>
-                    <p className=''>HOME</p>
-                <FontAwesomeIcon icon={faHome} className=''/>
-                </div>
-            </NavLink>
-        
-            <NavLink to="/about"
-                className={({isActive, isPending})=>isActive ? " bg-purple-800 dark:bg-gray-800 px-6 py-2 text-white font-bold hover:text-white " :"" ? isPending:"px-6 py-2 text-purple-400 dark:text-purple-300 hover:text-purple-600"}
-            >
-                <div className='flex flex-row gap-2 items-center'>
-                    <p className=''>ABOUT</p>
-                <FontAwesomeIcon icon={faUser} className=''/>
-                </div>
-            </NavLink>
-            <NavLink to="/tech-stack"
-                className={({isActive, isPending})=>isActive ? " bg-purple-800 dark:bg-gray-800 px-6 py-2 text-white font-bold hover:text-white" :"" ? isPending:"px-6 py-2 text-purple-400 dark:text-purple-300 hover:text-purple-600"}
-            >
-                <div className='flex flex-row gap-2 items-center'>
-                    <p className=''>TECH STACK</p>
-                <FontAwesomeIcon icon={faComputer} className=''/>
-                </div>
-            </NavLink>
-            <NavLink to="/projects"
-                className={({isActive, isPending})=>isActive ? " bg-purple-800 dark:bg-gray-800 px-6 py-2 text-white font-bold hover:text-white " :"" ? isPending :"px-6 py-2 text-purple-400 dark:text-purple-300 hover:text-purple-600"}
-            >
-                <div className='flex flex-row gap-2 items-center'>
-                    <p>PROJECTS</p>
-                <FontAwesomeIcon icon={faSuitcase} className=''/>
-                </div>
-            </NavLink>
-            {/* <NavLink to="/blogs"
-                className={({isActive, isPending})=>isActive ? " bg-purple-800 dark:bg-gray-800 px-6 py-2 text-white font-bold hover:text-white"  :"" ? isPending :"px-6 py-2 text-purple-400 dark:text-purple-300 hover:text-purple-600"}
-            >
-                <div className='flex flex-row gap-2 items-center'>
-                    <p>BLOGS</p>
-                <FontAwesomeIcon icon={faPenToSquare} className=''/>
-                </div>
-            </NavLink>
-            <NavLink to="/contacts"
-                className={({isActive, isPending})=>isActive ? " bg-purple-800 dark:bg-gray-800 px-6 py-2 text-white font-bold hover:text-white " :"" ? isPending : "px-6 py-2 text-purple-400 dark:text-purple-300 hover:text-purple-600"}
-            >
-                <div className='flex flex-row gap-2 items-center'>
-                    <p>CONTACTS</p>
-                <FontAwesomeIcon icon={faMessage} className=''/>
-                </div>
-            </NavLink> */}
-        </nav>
-    )
+    
 
   return (
     <div className='w-full'>
