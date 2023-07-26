@@ -7,7 +7,7 @@ export const Projects = ({githubProjects, setReload, reloadGithub, isPending}) =
   // console.log(githubProjects)
   
   return (
-    <div className='h-full md:flex mt-8 md:flex-col dark:text-purple-200 text-[#301934]'>
+    <div className='h-full md:flex mt-8 md:p-3 md:flex-col dark:text-purple-200 text-[#301934]'>
       <h2 className='text-lg md:text-3xl font-bold font-heading tracking-wider'>MY PROJECTS</h2>
       <div className='w-full flex flex-col justify-center mt-8'>
         <div className='w-full'>
