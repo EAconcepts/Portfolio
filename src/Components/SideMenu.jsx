@@ -64,9 +64,6 @@ const SideMenu = ({darkMode, setDarkMode}) => {
         setDarkMode(!darkMode)
     }
 
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
   const ref = useRef(null)
     useClickAway(ref,()=>{
         setIsOpen(false)
@@ -75,12 +72,12 @@ const SideMenu = ({darkMode, setDarkMode}) => {
     
 
   return (
-    <div className='w-full'>
-        <div className="hidden md:fixed top-0 left-0 bottom-0 md:flex flex-col w-64 bg-white dark:bg-gray-700">
-            <div className="flex items-center h-16 ">
+    <div className='w-full border-2 '>
+        <div className="hidden sm:fixed top-0 left-0 bottom-0 sm:flex flex-col w-[20%] bg-white dark:bg-gray-700">
+            <div className="top-in flex items-center h-16 ">
                 <p className="dark:text-purple-100 px-2 text-[#301934] text-lg font-bold">EMMANUEL AMOO</p>
             </div>
-            <div className=' w-full flex flex-row items-center px-2 gap-1'>
+            <div className='top-in w-full flex flex-row items-center px-2 gap-1'>
                 <button onClick={toggleMode} ref={ref} className='flex flex-row text-sm'>
                     <div className='flex flex-row justify-center items-center h-6 w-6 rounded-full border border-slate-800 dark:border-purple-300 dark:text-purple-100'>
                         {!darkMode ? <FontAwesomeIcon icon={faMoon} className=''/> : <FontAwesomeIcon icon={faSun} className=''/>}
@@ -88,7 +85,7 @@ const SideMenu = ({darkMode, setDarkMode}) => {
                     <p className='dark:text-purple-100 text-[#301934] pr-2 ml-2'> Toggle mode</p>
                 </button>
             </div>
-            <nav className="flex-grow">
+            <nav className="down-in flex-grow">
                 {navList}
             </nav>
         </div>

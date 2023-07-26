@@ -1,7 +1,6 @@
 Body bg: slate-100, dark: gray-800
-Nav bg - white , dark: gray-700
-body text: black, dark: purple-100
-nav text: gray-400, dark: purple-300
-nav activebg: purple-800, dark: purple-950
-
-text-[#301934]
+body text:  text-[#301934], dark: purple-100, heading - text-purple-800
+sideMenu bg - white dark: gray-700
+sideMenu text - text-[#301934] dark: purple-100
+sideMenu Active - bg-purple-800 dark:bg-gray-800 text-white dark:text-purple-200
+SideMenu pending - dark:text-purple-300 text-purple-700

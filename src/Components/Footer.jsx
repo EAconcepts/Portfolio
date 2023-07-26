@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const Footer = () => {
   return (
     <footer>
-      <nav className="flex flex-row justify-center gap-4 text-sm">
+      <nav className="down-in flex flex-row justify-center gap-4 text-sm">
         <NavLink
           to="/"
           className={({ isActive }) =>
