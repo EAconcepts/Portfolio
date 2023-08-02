@@ -8,7 +8,7 @@ const About = () => {
       </h1>
       <div className="slide-in-right mt-8 dark:text-purple-100 tracking-wide flex flex-col gap-3 font-nunito">
         <p>
-          Greetings, my name is Emmanuel Amoo, a self taught and result driven
+          Greetings, Emmanuel Amoo is my name, a self taught and result driven
           developer, skilled in creating and implementing eye catching,
           functional and user friendly web applications.
         </p>
