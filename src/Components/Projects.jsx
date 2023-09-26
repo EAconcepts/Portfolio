@@ -90,13 +90,17 @@ export const Projects = ({
                       >
                         Github
                       </Link>
-                      <Link
-                        to={project.homepage}
-                        target="_blank"
-                        className="text-purple-950 dark:text-purple-200 hover:text-purple-800 hover:text-lg hover:font-medium"
-                      >
-                        Live Link
-                      </Link>
+                      {project.homepage !== "" &&
+                        project.homepage !==
+                          "https://emmanuelamoo.vercel.app" && (
+                          <Link
+                            to={project.homepage}
+                            target="_blank"
+                            className="text-purple-950 dark:text-purple-200 hover:text-purple-800 hover:text-lg hover:font-medium"
+                          >
+                            Live Link
+                          </Link>
+                        )}
                     </div>
                   </div>
                 ))}

@@ -26,7 +26,12 @@ function App() {
       .then((response) => {
         if (response.status === 200) {
           // console.log(response.data)
-          setGithubProjects(response.data);
+          setGithubProjects(
+            response.data.filter(
+              (item) =>
+                item.name !== "Anwale_app" && item.name !== "threads-app"
+            )
+          );
           setIsPending(false);
         }
       })
