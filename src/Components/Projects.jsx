@@ -17,7 +17,7 @@ export const Projects = ({
         It is built with ReactJs, TailwindCSS, Redux toolkit for state management 
         `,
       githubLink: "https://github.com/dkrest1/blog-api",
-      liveLink: "https://my-blog-dkrest1.vercel.app",
+      liveLink: "https://my-blog-dkrest1.vercel.app/",
     },
     {
       name: "Flight-Search App",
