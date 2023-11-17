@@ -40,7 +40,7 @@ const Contacts = () => {
           <i className="fa-solid fa-envelope"></i>
         </Link>
         <Link
-          to="https://bit.ly/cv_emmanuelamoo"
+          to="https://bit.ly/emmanuelamoo_resume"
           target="_blank"
           className="flex justify-between px-4 md:px-10 py-2 rounded-md bg-gradient-to-r from-purple-700 to-purple-400 dark:from-slate-600 dark:to-slate-400 dark:bg-slate-600 text-purple-100 font-edu tracking-widest md:text-xl font-semibold w-[80%] md:w-[50%]"
         >
