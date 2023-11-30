@@ -8,9 +8,7 @@ const About = () => {
       </h1>
       <div className="slide-in-right mt-8 dark:text-purple-100 tracking-wide flex flex-col gap-3 font-nunito">
         <p>
-          Greetings, Emmanuel Amoo is my name, a self taught and result driven
-          developer, skilled in creating and implementing eye catching,
-          functional and user friendly web applications.
+          Greetings, Emmanuel Amoo is my name, experienced and highly skilled React.js Developer with a proven track record of designing, implementing, and maintaining dynamic web applications. Proficient in leveraging React.js to build responsive and user-friendly interfaces, employing best practices in code optimization and performance.
         </p>
         <p>
           As a Distinction gradute in Computer Engineering from Federal
