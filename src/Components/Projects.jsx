@@ -24,14 +24,6 @@ export const Projects = ({
       liveLink: "https://zuriportfolio.vercel.app/",
     },
     {
-      name: "Blog App",
-      description: `A Blog Website, Where users can read blog stories, or sign up to write, update or delete their own blog stories.
-        It is built with ReactJs, TailwindCSS, Redux toolkit for state management 
-        `,
-      githubLink: "https://github.com/dkrest1/blog-api",
-      liveLink: "https://my-blog-dkrest1.vercel.app/",
-    },
-    {
       name: "Flight-Search App",
       description: `A flight search App to retrieve flight information and display search results. Results can be sorted or filtered according to various parameters.
       It is built with ReactJs, TailwindCSS, Zustand for state management.
@@ -50,6 +42,14 @@ export const Projects = ({
       description: `A movie discovery app, built with Reactjs and tailwindcss . Implemented API integration using axios to fetch movie data from imdb endpoints.`,
       githubLink: "https://github.com/EAconcepts/hng-task-two",
       liveLink: "https://emmy-hng-task-two.vercel.app/",
+    },
+    {
+      name: "Blog App",
+      description: `A Blog Website, Where users can read blog stories, or sign up to write, update or delete their own blog stories.
+        It is built with ReactJs, TailwindCSS, Redux toolkit for state management 
+        `,
+      githubLink: "https://github.com/dkrest1/blog-api",
+      liveLink: "https://my-blog-dkrest1.vercel.app/",
     },
   ];
 
