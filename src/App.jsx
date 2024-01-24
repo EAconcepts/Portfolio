@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Home } from "./Components/Home";
-import About from "./Components/About";
-import { Projects } from "./Components/Projects";
-import TechStack from "./Components/TechStack";
-import Blogs from "./Components/Blogs";
-import Contacts from "./Components/Contacts";
+import { Home } from "./pages/Home";
+import About from "./pages/About";
+import { Projects } from "./pages/Projects";
+import TechStack from "./pages/TechStack";
+import Blogs from "./pages/Blogs";
+import Contacts from "./pages/Contacts";
 import SideMenu from "./Components/SideMenu";
 import TsParticles from "./Components/TsParticles";
 import axios from "axios";

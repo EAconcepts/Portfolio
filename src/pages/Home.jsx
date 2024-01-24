@@ -2,9 +2,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
-import SideMenu from "./SideMenu";
+import SideMenu from "../Components/SideMenu";
 import heroImg from "../assets/hero-img.png";
-import TsParticles from "./TsParticles";
+import TsParticles from "../Components/TsParticles";
 
 export const Home = () => {
   return (
@@ -41,7 +41,11 @@ export const Home = () => {
                   1000,
                   "a Javascript Developer",
                   1000,
+                  "a Typescript Developer",
+                  1000,
                   "a ReactJs Developer",
+                  1000,
+                  "a NextJs Developer",
                   1000,
                   "a Music Lover",
                   1000,
