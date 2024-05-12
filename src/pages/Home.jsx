@@ -37,7 +37,7 @@ export const Home = () => {
                 sequence={[
                   "a Software Engineer",
                   1000,
-                  "a Frontend Engineer",
+                  "a Fullstack Developer",
                   1000,
                   "a Javascript Developer",
                   1000,
@@ -46,6 +46,8 @@ export const Home = () => {
                   "a ReactJs Developer",
                   1000,
                   "a NextJs Developer",
+                  1000,
+                   "a NodeJs Developer",
                   1000,
                   "a Music Lover",
                   1000,
