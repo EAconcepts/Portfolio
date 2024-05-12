@@ -8,20 +8,20 @@ const About = () => {
       </h1>
       <div className="slide-in-right mt-8 dark:text-purple-100 tracking-wide flex flex-col gap-3 font-nunito">
         <p>
-          Greetings, Emmanuel Amoo is my name, experienced and highly skilled React.js Developer with a proven track record of designing, implementing, and maintaining dynamic web applications. Proficient in leveraging React.js to build responsive and user-friendly interfaces, employing best practices in code optimization and performance.
+          Greetings, Emmanuel Amoo is my name, experienced and highly skilled Fullstack Developer with a proven track record of designing, implementing, and maintaining dynamic web applications. Proficient in leveraging React.js and NodeJs to build responsive, user-friendly and scalable web applications, employing best practices in code optimization and performance.
         </p>
         <p>
-          As a Distinction gradute in Computer Engineering from Federal
-          Polytechnic Ede,Osun State, I've been exposed to the diversities in
-          tech space and have my knowledge expanded, especailly as far as the
+          As a Distinction graduate in Computer Engineering from Federal
+          Polytechnic Ede, Osun State, I've been exposed to the diversities in
+          tech space and have my knowledge expanded, especially as far as the
           tech space is concerned. With my relentless passion towards
           problem-solving and making things work, I have been able to stay
           updated with the latest trends in the web technology space.
         </p>
         <p>
-          I am current seeking for a fast paced environment where I can deliver
+          I am currently seeking a fast-paced environment where I can deliver
           at a high quality my skill set and up my game, and the same where
-          hardwork is handsomely rewarded.
+          Hard work is handsomely rewarded.
         </p>
       </div>
     </div>
