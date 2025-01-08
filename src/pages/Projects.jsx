@@ -12,10 +12,17 @@ export const Projects = ({
   // console.log(githubProjects)
   const staticProjects = [
     {
+      name: "Sahara Marketplace",
+      description: `Sahara Eagle Is a dynamic Role Based marketplace that Bridge's Global Cultures, through Discovery and Connections. It was built with Nextjs, I used Context API for state management and Tanstack React Query for network requests.  `,
+      githubLink: "https://github.com/EAconcepts/sahara-markeplace",
+      liveLink: "https://sahara-markeplace.vercel.app/",
+    },
+    {
       name: "Dream Affairs",
       description: `A Wedding planning app, that helps brides and bride's maid manage the overall planning of their dream day. Implemented the Meal Management feature and About page of the app.  `,
       githubLink: "https://github.com/Dream-Affairs/Dream-Affairs-Frontend",
-      liveLink: "https://dream-affairs-frontend-dev.vercel.app/dashboard/meal-management",
+      liveLink:
+        "https://dream-affairs-frontend-dev.vercel.app/dashboard/meal-management",
     },
     {
       name: "Zuriportfolio",
@@ -43,14 +50,14 @@ export const Projects = ({
       githubLink: "https://github.com/EAconcepts/hng-task-two",
       liveLink: "https://emmy-hng-task-two.vercel.app/",
     },
-    {
-      name: "Blog App",
-      description: `A Blog Website, Where users can read blog stories, or sign up to write, update or delete their own blog stories.
-        It is built with ReactJs, TailwindCSS, Redux toolkit for state management 
-        `,
-      githubLink: "https://github.com/dkrest1/blog-api",
-      liveLink: "https://my-blog-dkrest1.vercel.app/",
-    },
+    // {
+    //   name: "Blog App",
+    //   description: `A Blog Website, Where users can read blog stories, or sign up to write, update or delete their own blog stories.
+    //     It is built with ReactJs, TailwindCSS, Redux toolkit for state management
+    //     `,
+    //   githubLink: "https://github.com/dkrest1/blog-api",
+    //   liveLink: "https://my-blog-dkrest1.vercel.app/",
+    // },
   ];
 
   return (

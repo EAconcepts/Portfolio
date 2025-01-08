@@ -44,6 +44,7 @@ const TechStack = () => {
             />
             <p className="text-center font-medium">Javascript</p>
           </div>
+          {/* Typescript */}
           <div className="w-fit shadow-lg shadow-slate-600 rounded-md md:p-2">
             <img
               src={tsLogo}
@@ -52,6 +53,7 @@ const TechStack = () => {
             />
             <p className="text-center font-medium">Typescript</p>
           </div>
+          {/* Tailwind */}
           <div className="w-fit shadow-lg shadow-slate-600 rounded-md md:p-2">
             <img
               src={tailwindImg}
@@ -60,6 +62,7 @@ const TechStack = () => {
             />
             <p className="text-center font-medium">Tailwind</p>
           </div>
+          {/* Reactjs */}
           <div className="w-fit shadow-lg shadow-slate-600 rounded-md md:p-2">
             <img
               src={reactImg}
@@ -68,6 +71,7 @@ const TechStack = () => {
             />
             <p className="text-center font-medium">Reactjs</p>
           </div>
+          {/* Nextjs */}
           <div className="w-fit shadow-lg shadow-slate-600 rounded-md md:p-2">
             <img
               src={nextjsLogo}
@@ -76,14 +80,25 @@ const TechStack = () => {
             />
             <p className="text-center font-medium">Nextjs</p>
           </div>
+          {/* Nodejs */}
           <div className="w-fit shadow-lg shadow-slate-600 rounded-md md:p-2">
+            <img
+              src={"https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40afserali.b%2F10-best-practices-to-secure-your-node-js-application-in-production-74f045b8001c&psig=AOvVaw2Lmv__sgxPCpVAmRzYHCJV&ust=1736454138584000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKj99Jrc5ooDFQAAAAAdAAAAABAE"}
+              alt="nodejs"
+              className=" w-[120px] md:w-[135px] md:h-36 h-32 object-contain "
+            />
+            <p className="text-center font-medium">Nodejs</p>
+          </div>
+          {/* Axios */}
+          {/* <div className="w-fit shadow-lg shadow-slate-600 rounded-md md:p-2">
             <img
               src={axiosImg}
               alt="axios"
               className=" w-[120px] md:w-[135px] md:h-36 h-32 object-cove"
             />
             <p className="text-center font-medium">Axios</p>
-          </div>
+          </div> */}
+          {/* Shadcn */}
           <div className="w-fit shadow-lg shadow-slate-600 rounded-md md:p-2">
             <img
               src={shadcnLogo}
@@ -92,6 +107,7 @@ const TechStack = () => {
             />
             <p className="text-center font-medium">Shadcn</p>
           </div>
+          {/* React query */}
           <div className="w-fit shadow-lg shadow-slate-600 rounded-md md:p-2">
             <img
               src={reactqueryLogo}
@@ -100,6 +116,7 @@ const TechStack = () => {
             />
             <p className="text-center font-medium">Tanstack React Query</p>
           </div>
+          {/* Zustand */}
           <div className="w-fit shadow-lg shadow-slate-600 rounded-md md:p-2">
             <img
               src={zustandLogo}
