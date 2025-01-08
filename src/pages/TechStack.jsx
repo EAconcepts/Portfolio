@@ -19,9 +19,9 @@ const TechStack = () => {
       </h1>
       <div className="mt-6">
         <p className="slide-in-right">The Technologies I can work with</p>
-        <div className="fade-in grid grid-cols-2 md:grid-cols-3 gap-10  mt-4 dark:text-purple-100 place-items-center">
+        <div className="fade-in flex flex-wrap gap-x-[32px] gap-y-10  mt-4 dark:text-purple-100 place-items-center">
           {/* HTML */}
-          <div className="w-fit shadow-lg shadow-slate-600 rounded-md md:p-2">
+          <div className="w-[200px] shadow-lg flex flex-col items-center shadow-slate-600 rounded-md md:p-2">
             <img
               src={htmlImg}
               alt="html"
@@ -30,7 +30,7 @@ const TechStack = () => {
             <p className="text-center font-medium">HTML</p>
           </div>
           {/* CSS */}
-          <div className="w-fit shadow-lg shadow-slate-600 rounded-md md:p-2">
+          <div className="w-[200px] shadow-lg flex flex-col items-center shadow-slate-600 rounded-md md:p-2">
             <img
               src={cssImg}
               alt="css"
@@ -39,7 +39,7 @@ const TechStack = () => {
             <p className="text-center font-medium">Vanilla CSS</p>
           </div>
           {/* HTML */}
-          <div className="w-fit shadow-lg shadow-slate-600 rounded-md md:p-2">
+          <div className="w-[200px] shadow-lg flex flex-col items-center shadow-slate-600 rounded-md md:p-2">
             <img
               src={javascriptImg}
               alt="javascript"
@@ -48,7 +48,7 @@ const TechStack = () => {
             <p className="text-center font-medium">Javascript</p>
           </div>
           {/* Typescript */}
-          <div className="w-fit shadow-lg shadow-slate-600 rounded-md md:p-2">
+          <div className="w-[200px] shadow-lg flex flex-col items-center shadow-slate-600 rounded-md md:p-2">
             <img
               src={tsLogo}
               alt="typescript"
@@ -57,7 +57,7 @@ const TechStack = () => {
             <p className="text-center font-medium">Typescript</p>
           </div>
           {/* Tailwind */}
-          <div className="w-fit shadow-lg shadow-slate-600 rounded-md md:p-2">
+          <div className="w-[200px] shadow-lg flex flex-col items-center shadow-slate-600 rounded-md md:p-2">
             <img
               src={tailwindImg}
               alt="tailwind"
@@ -66,7 +66,7 @@ const TechStack = () => {
             <p className="text-center font-medium">Tailwind</p>
           </div>
           {/* Reactjs */}
-          <div className="w-fit shadow-lg shadow-slate-600 rounded-md md:p-2">
+          <div className="w-[200px] shadow-lg flex flex-col items-center shadow-slate-600 rounded-md md:p-2">
             <img
               src={reactImg}
               alt="react"
@@ -75,7 +75,7 @@ const TechStack = () => {
             <p className="text-center font-medium">Reactjs</p>
           </div>
           {/* Nextjs */}
-          <div className="w-fit shadow-lg shadow-slate-600 rounded-md md:p-2">
+          <div className="w-[200px] shadow-lg flex flex-col items-center shadow-slate-600 rounded-md md:p-2">
             <img
               src={nextjsLogo}
               alt="nextjs"
@@ -84,7 +84,7 @@ const TechStack = () => {
             <p className="text-center font-medium">Nextjs</p>
           </div>
           {/* Nodejs */}
-          <div className="w-fit shadow-lg shadow-slate-600 rounded-md md:p-2">
+          <div className="w-[200px] shadow-lg flex flex-col items-center shadow-slate-600 rounded-md md:p-2">
             <img
               src={
                 "https://miro.medium.com/v2/resize:fit:900/1*TY9uBBO9leUbRtlXmQBiug.png"
@@ -95,7 +95,7 @@ const TechStack = () => {
             <p className="text-center font-medium">Nodejs</p>
           </div>
           {/* Mysql */}
-          <div className="w-fit shadow-lg shadow-slate-600 rounded-md md:p-2">
+          <div className="w-[200px] shadow-lg flex flex-col items-center shadow-slate-600 rounded-md md:p-2">
             <img
               src={
                 "https://camo.githubusercontent.com/3790703659f70a467131f121409571356e614dbf36f372bf0d4221a3935ba4a3/68747470733a2f2f6761727574696c6f72656e7a6f2e6769746875622e696f2f696d616765732f6d7973716c2e706e673f"
@@ -106,7 +106,7 @@ const TechStack = () => {
             <p className="text-center font-medium">mySQL</p>
           </div>
           {/* Axios */}
-          {/* <div className="w-fit shadow-lg shadow-slate-600 rounded-md md:p-2">
+          {/* <div className="w-[200px] shadow-lg flex flex-col items-center shadow-slate-600 rounded-md md:p-2">
             <img
               src={axiosImg}
               alt="axios"
@@ -115,7 +115,7 @@ const TechStack = () => {
             <p className="text-center font-medium">Axios</p>
           </div> */}
           {/* Shadcn */}
-          <div className="w-fit shadow-lg shadow-slate-600 rounded-md md:p-2">
+          <div className="w-[200px] shadow-lg flex flex-col items-center shadow-slate-600 rounded-md md:p-2">
             <img
               src={shadcnLogo}
               alt="shadcn"
@@ -124,7 +124,7 @@ const TechStack = () => {
             <p className="text-center font-medium">Shadcn</p>
           </div>
           {/* React query */}
-          <div className="w-fit shadow-lg shadow-slate-600 rounded-md md:p-2">
+          <div className="w-[200px] shadow-lg flex flex-col items-center shadow-slate-600 rounded-md md:p-2">
             <img
               src={reactqueryLogo}
               alt="react-query"
@@ -133,7 +133,7 @@ const TechStack = () => {
             <p className="text-center font-medium">Tanstack React Query</p>
           </div>
           {/* Zustand */}
-          <div className="w-fit shadow-lg shadow-slate-600 rounded-md md:p-2">
+          <div className="w-[200px] shadow-lg flex flex-col items-center shadow-slate-600 rounded-md md:p-2">
             <img
               src={zustandLogo}
               alt="zustand"
