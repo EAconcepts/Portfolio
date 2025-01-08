@@ -19,7 +19,7 @@ const TechStack = () => {
       </h1>
       <div className="mt-6">
         <p className="slide-in-right">The Technologies I can work with</p>
-        <div className="fade-in flex flex-wrap gap-x-[32px] gap-y-10  mt-4 dark:text-purple-100 place-items-center">
+        <div className="fade-in flex flex-wrap justify-center gap-x-[32px] gap-y-10  mt-4 dark:text-purple-100 place-items-center">
           {/* HTML */}
           <div className="w-[200px] shadow-lg flex flex-col items-center shadow-slate-600 rounded-md md:p-2">
             <img
