@@ -18,6 +18,12 @@ export const Projects = ({
       liveLink: "https://sahara-markeplace.vercel.app/",
     },
     {
+      name: "Beels Portal",
+      description: `Beels is a financial Management App. It was built with Reactjs and Taiwindcss.`,
+      githubLink: "https://github.com/EAconcepts/beels-v2.0",
+      liveLink: "https://beels-v2-0.vercel.app/",
+    },
+    {
       name: "Dream Affairs",
       description: `A Wedding planning app, that helps brides and bride's maid manage the overall planning of their dream day. Implemented the Meal Management feature and About page of the app.  `,
       githubLink: "https://github.com/Dream-Affairs/Dream-Affairs-Frontend",
