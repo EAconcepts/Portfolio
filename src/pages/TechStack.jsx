@@ -4,12 +4,12 @@ import htmlImg from "../assets/html.png";
 import cssImg from "../assets/css.png";
 import tailwindImg from "../assets/tailwind.png";
 import javascriptImg from "../assets/js.png";
-import tsLogo from "../assets/tslogo.png"
-import nextjsLogo from "../assets/nextjslogo.png"
-import shadcnLogo from "../assets/shadcn.png"
+import tsLogo from "../assets/tslogo.png";
+import nextjsLogo from "../assets/nextjslogo.png";
+import shadcnLogo from "../assets/shadcn.png";
 import axiosImg from "../assets/axios.png";
-import zustandLogo from "../assets/zustand.png"
-import reactqueryLogo from "../assets/react-query.png"
+import zustandLogo from "../assets/zustand.png";
+import reactqueryLogo from "../assets/react-query.png";
 
 const TechStack = () => {
   return (
@@ -20,6 +20,7 @@ const TechStack = () => {
       <div className="mt-6">
         <p className="slide-in-right">The Technologies I can work with</p>
         <div className="fade-in grid grid-cols-2 md:grid-cols-3 gap-10  mt-4 dark:text-purple-100 place-items-center">
+          {/* HTML */}
           <div className="w-fit shadow-lg shadow-slate-600 rounded-md md:p-2">
             <img
               src={htmlImg}
@@ -28,6 +29,7 @@ const TechStack = () => {
             />
             <p className="text-center font-medium">HTML</p>
           </div>
+          {/* CSS */}
           <div className="w-fit shadow-lg shadow-slate-600 rounded-md md:p-2">
             <img
               src={cssImg}
@@ -36,6 +38,7 @@ const TechStack = () => {
             />
             <p className="text-center font-medium">Vanilla CSS</p>
           </div>
+          {/* HTML */}
           <div className="w-fit shadow-lg shadow-slate-600 rounded-md md:p-2">
             <img
               src={javascriptImg}
@@ -83,11 +86,24 @@ const TechStack = () => {
           {/* Nodejs */}
           <div className="w-fit shadow-lg shadow-slate-600 rounded-md md:p-2">
             <img
-              src={"https://miro.medium.com/v2/resize:fit:900/1*TY9uBBO9leUbRtlXmQBiug.png"}
+              src={
+                "https://miro.medium.com/v2/resize:fit:900/1*TY9uBBO9leUbRtlXmQBiug.png"
+              }
               alt="nodejs"
               className=" w-[120px] md:w-[135px] md:h-36 h-32 object-contain "
             />
             <p className="text-center font-medium">Nodejs</p>
+          </div>
+          {/* Mysql */}
+          <div className="w-fit shadow-lg shadow-slate-600 rounded-md md:p-2">
+            <img
+              src={
+                "https://camo.githubusercontent.com/3790703659f70a467131f121409571356e614dbf36f372bf0d4221a3935ba4a3/68747470733a2f2f6761727574696c6f72656e7a6f2e6769746875622e696f2f696d616765732f6d7973716c2e706e673f"
+              }
+              alt="mysql"
+              className=" w-[120px] md:w-[135px] md:h-36 h-32 object-contain "
+            />
+            <p className="text-center font-medium">mySQL</p>
           </div>
           {/* Axios */}
           {/* <div className="w-fit shadow-lg shadow-slate-600 rounded-md md:p-2">
