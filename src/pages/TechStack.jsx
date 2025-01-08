@@ -83,7 +83,7 @@ const TechStack = () => {
           {/* Nodejs */}
           <div className="w-fit shadow-lg shadow-slate-600 rounded-md md:p-2">
             <img
-              src={"https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40afserali.b%2F10-best-practices-to-secure-your-node-js-application-in-production-74f045b8001c&psig=AOvVaw2Lmv__sgxPCpVAmRzYHCJV&ust=1736454138584000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKj99Jrc5ooDFQAAAAAdAAAAABAE"}
+              src={"https://miro.medium.com/v2/resize:fit:900/1*TY9uBBO9leUbRtlXmQBiug.png"}
               alt="nodejs"
               className=" w-[120px] md:w-[135px] md:h-36 h-32 object-contain "
             />
